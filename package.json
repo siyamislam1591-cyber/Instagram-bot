@@ -1,0 +1,12 @@
+{
+  "name": "instagram-chat-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "instagram-private-api": "^1.46.1"
+  }
+}
