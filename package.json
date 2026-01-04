@@ -1,5 +1,5 @@
 {
-  "name": "instagram-chat-bot",
+  "name": "insta-chat-bot",
   "version": "1.0.0",
   "description": "Instagram GoatBot style chat bot with session login and auto reply",
   "main": "index.js",
