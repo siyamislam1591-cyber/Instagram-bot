@@ -1,52 +1,52 @@
 // config.js
 module.exports = {
   // ===============================
-  // Instagram Account Credentials
+  // Instagram Account
   // ===============================
   IG: {
-    USERNAME: "phantom_99xs",
-    PASSWORD: "phantom12@#",
-
-    // For accounts with 2FA
-    TWO_FACTOR_CODE: null, // If your account has 2FA, put the code here
-    SAVE_SESSION: true     // Prevents logging in every time
+    EMAIL: "siyamrohman159@gmail.com",        // Your Instagram email
+    USERNAME: "Phantom_99xs",             // Your Instagram username (optional)
+    PASSWORD: "phantom12@#",           // Your password
+    LOGIN_TYPE: "email",                // "email" or "username"
+    SAVE_SESSION: true,                 // Save session to avoid repeated login
+    TWO_FACTOR_CODE: null               // 2FA code if enabled
   },
-
+  
+//siyam your father 
+  
   // ===============================
   // Bot Settings
   // ===============================
   BOT: {
-    PREFIX: "/",                // Command prefix
-    OWNER_NAME: "Siyam Rohman", // Your name
-    BOT_NAME: "maiko",  // Bot name
-    TIMEZONE: "Asia/Dhaka"      // Timezone for logging or scheduling
+    NAME: "maiko",
+    OWNER: "Siyam Rohman",
+    PREFIX: "/",
+    TIMEZONE: "Asia/Dhaka"
   },
 
   // ===============================
-  // Admin Control
+  // Admins uid
   // ===============================
-  ADMINS: [
-    "61584749395355" // Instagram User ID of admins
-  ],
+  ADMINS: ["61584749395355"],
 
   // ===============================
-  // Puppeteer / Login Settings
+  // Puppeteer Settings
   // ===============================
   LOGIN: {
-    HEADLESS: false,            // true = browser hidden, false = visible
-    SLOW_MO: 50,                // human-like delay
-    MAX_RETRY: 3,               // retry login on failure
-    LOGIN_TIMEOUT: 60000        // 60 seconds
+    HEADLESS: false,
+    SLOW_MO: 80,
+    TIMEOUT: 60000,
+    MAX_RETRY: 3
   },
 
   // ===============================
-  // Anti-Ban / Safety
+  // Anti-Ban Safety
   // ===============================
   SECURITY: {
-    RANDOM_DELAY: true,         // random delay between actions
-    MIN_DELAY: 3000,            // 3 seconds minimum
-    MAX_DELAY: 7000,            // 7 seconds maximum
-    AUTO_LOGOUT_ON_ERROR: true  // logout if something goes wrong
+    RANDOM_DELAY: true,
+    MIN_DELAY: 4000,
+    MAX_DELAY: 8000,
+    AUTO_LOGOUT_ON_ERROR: true
   },
 
   // ===============================
@@ -54,6 +54,6 @@ module.exports = {
   // ===============================
   LOG: {
     ENABLED: true,
-    LEVEL: "info" // "info" | "warn" | "error" | "debug"
+    LEVEL: "info" // info | warn | error | debug
   }
 };
